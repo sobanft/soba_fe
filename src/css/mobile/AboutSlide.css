@@ -1,0 +1,66 @@
+.carousel.carousel-slider {
+    overflow: inherit;
+}
+
+.carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover{
+    background-color: transparent;
+    right: 310px;
+}
+
+.carousel .control-prev.control-arrow, .carousel .control-prev.control-arrow:hover {
+    background-color: transparent;
+    left : 310px
+}
+
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow{
+    opacity: 1;
+}
+.carousel .control-dots{
+    /* bottom: 20vw !important; */
+}
+
+.carousel .control-next.control-arrow:before {
+    content: '';
+    border: solid rgba(0,0,0,0);
+    display: inline-block;
+    padding: 30px;
+    background: url(https://image.soribada.com/image/sobanft/images/web/img_w_visual_slide_next.png);
+    background-repeat: no-repeat;
+}
+
+.carousel .control-prev.control-arrow:before {
+    content: '';
+    border: solid rgba(0,0,0,0);
+    display: inline-block;
+    padding: 30px;
+    background: url(https://image.soribada.com/image/sobanft/images/web/img_w_visual_slide_prev.png);
+    background-repeat: no-repeat;
+}
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover{
+    transition: opacity .25s ease-in;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    box-shadow: 0px 0px 0px;
+    background: #FFFFFF;
+    border-radius: 0%;
+    width: 50px;
+    height: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.carousel .control-dots .dot{
+    transition: opacity .25s ease-in;
+    opacity: 0.2;
+    filter: alpha(opacity=100);
+    box-shadow: 0px 0px 0px;
+    background: #FFFFFF;
+    border-radius: 0%;
+    width: 50px;
+    height: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 1px;
+}
+

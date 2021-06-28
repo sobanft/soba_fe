@@ -1,0 +1,19 @@
+.privacy_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vw;
+}
+
+.privacy_title_image{
+    width: 38.1vw;
+}
+
+.privacy_content_container{
+    width: 88.8vw;
+}
+
+.privacy_content_text{
+    font-size: 3vw;
+}

@@ -1,0 +1,14 @@
+.visual01_container{
+    display: block;
+    height: 800px;
+}
+
+.control-arrow {
+    background-repeat: no-repeat!important;
+    background-size: 100% auto!important;
+    background-position: 50%!important;
+}
+
+.control-next{
+    background: url(http://image.soribada.com/image/sobanft/images/web/img_w_visual_slide_next.png) !important;
+}

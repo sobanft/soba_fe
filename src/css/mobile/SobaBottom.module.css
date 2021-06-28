@@ -1,0 +1,18 @@
+.bottom_container{
+    position: relative;
+}
+
+.text_container{
+    position: absolute;
+    top: 10.1vw;
+    left: 5.5vw;
+    width: 81vw;
+}
+
+.button_container{
+    position: absolute;
+    top: 37.8vw;
+    left: 5.5vw;
+    width: 43.2vw;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.item_contaner{
+
+    width: 51.8vw;
+    height: 51.8vw;
+    border-radius: 3vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    align-items: center;
+    padding-top: 5vw;
+}
+.hover_menu0{
+    width: 29vw;
+    margin-top: 2vw;
+}
+.hover_menu1{
+    width: 40.7vw;
+    margin-top: 2vw;
+}
+.hover_menu2{
+    width: 28.2vw;
+    margin-top: 2vw;
+}
+.hover_menu3{
+    width: 21.6vw;
+    margin-top: 2vw;
+}

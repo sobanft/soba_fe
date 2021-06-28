@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+.container-main{
+    min-width: 1340px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content : flex-start;
+    flex-direction: column;
+
+}
+.container-sub{
+    width: 1920px;
+    position: relative;
+    display: flex;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+}

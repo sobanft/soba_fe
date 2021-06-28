@@ -1,0 +1,6 @@
+.title_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 106px 0 50px 0;
+}

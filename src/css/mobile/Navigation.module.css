@@ -1,0 +1,131 @@
+.top_container{
+    position: fixed;
+    display: flex;
+    height: 18vw;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    left: 0;
+    top: 0;
+}
+.background_color{
+    background-color: #0066ff;
+}
+
+.div_logo{
+    width: 30vw;
+    margin-left: 6vw;
+}
+.div_menubread{
+    width: 8vw;
+    margin-right: 6vw;
+}
+.logo_link{
+}
+.meny_tran_on{
+    transform: translateX(0%); /* move it horizontally off the page */
+}
+.meny_tran_off{
+    transform: translateX(105%); /* move it horizontally off the page */
+}
+.menu_block_container{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 80;
+    top: 0;
+    left: 0;
+}
+.menu_block{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 90;
+}
+.nav_on{
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 80vw;
+    right: 0;
+    align-items: center;
+    background-color: #0066FF;
+    flex-direction: column;
+    z-index: 100;
+    transform: translateX(0%); 
+    transition: transform 0.2s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+.nav_off{
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 80vw;
+    right: 0;
+    align-items: center;
+    background-color: #0066FF;
+    flex-direction: column;
+    z-index: 100;
+    transform: translateX(105%); 
+    transition: transform 0.2s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+.nav_menu0{
+    width: 26vw;
+    margin-top: 20vw;
+    margin-bottom: 5vw;
+}
+.nav_menu1{
+    width: 41vw;
+    margin-bottom: 5vw;
+}
+.nav_menu2{
+    width: 30vw;
+    margin-bottom: 5vw;
+}
+.nav_menu3{
+    width: 35vw;
+    margin-bottom: 5vw;
+}
+.nav_menu4{
+    width: 38vw;
+    margin-bottom: 5vw;
+}
+.mypage_container{
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item_contaner{
+
+    width: 51.8vw;
+    height: 51.8vw;
+    border-radius: 3vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    align-items: center;
+    padding-top: 5vw;
+}
+.hover_menu0{
+    width: 29vw;
+    margin-top: 2vw;
+}
+.hover_menu1{
+    width: 40.7vw;
+    margin-top: 2vw;
+}
+.hover_menu2{
+    width: 28.2vw;
+    margin-top: 2vw;
+}
+.hover_menu3{
+    width: 21.6vw;
+    margin-top: 2vw;
+}

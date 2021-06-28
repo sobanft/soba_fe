@@ -1,0 +1,29 @@
+.footer_container{
+    position: relative;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00183C;
+    min-width: 1920px;
+}
+
+.footer_logo_container{
+    position: relative;
+    display: block;
+    margin-left: 310px;
+}
+
+.footer_copy{
+    color: #BBBBBB;
+    font-size: 16px;
+}
+
+.footer_nav_container{
+    position: relative;
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+    margin-right: 310px;
+}

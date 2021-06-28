@@ -1,0 +1,99 @@
+.item_container{
+    width: 100%;
+
+}
+.nickname_text{
+    width: 100%;
+}
+.title_container{
+    width: 100%;
+    height: 200px;
+    background-color: #00183C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.nickname_container{
+    width: 70%;
+}
+.edit_container{
+    width: 50%;
+    text-align: right;
+    margin-right: 310px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.nickname_text{
+    color: #fff;
+    margin-left: 310px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.content_container{
+    width: 100%;
+    display: flex;
+}
+.mycollection_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.mycollection_noshow{
+    font-size: 24px;
+    font-weight: bold;
+    color: #00183C;
+    width: 100%;
+}
+.mycollection_title_container{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.mycollection_title{
+    width: 100%;
+    margin-left: 310px;
+}
+.mycollection_more{
+    margin-right: 310px;
+    cursor: pointer;
+}
+
+.mycollection_content_container{
+    margin: 0 310px;
+}
+.mycollection_noshow_container{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.mywallet_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mywallet_title_container{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.mywallet_title{
+    width: 100%;
+    margin-left: 310px;
+}
+.mywallet_more{
+    margin-right: 310px;
+    cursor: pointer;
+}
+
+.mywallet_content_container{
+    margin: 0 310px;
+}

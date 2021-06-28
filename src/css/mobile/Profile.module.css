@@ -1,0 +1,120 @@
+.profile_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vw;
+    
+}
+.profile_image_title{
+    width: 64.2vw;
+}
+.dot_img{
+    margin-right: 1vw;
+    width: 2.2vw;
+}
+.input_container{
+    margin-top: 3vw;
+}
+.email_container{
+    width: 88.8vw;
+    margin-top: 7vw;
+}
+.email_title{
+    display: flex;
+    align-items: center;
+    width: 16.1vw;
+}
+.email_input{
+    width: 88.8vw;
+    height: 13vw;
+    border:none;
+    background-color: #FFF;
+    font-size: 4vw;
+}
+
+.password_container{
+    width: 88.8vw;
+    margin-top: 7vw;
+}
+.password_title{
+    display: flex;
+    justify-content :flex-start;
+    align-items: center;
+}
+.password_title_image{
+    width: 22.7vw;
+}
+
+.password_title_new_image{
+    width: 33.7vw;
+}
+
+.password_title_confirm_image{
+    width: 43.4vw;
+}
+.password_input{
+    width: 88.8vw;
+    height: 13vw;
+    border:none;
+    background-color: #F6F6F6;
+
+}
+.nickname_title_image{
+    width: 40.2vw;
+}
+.nickname_find_text{
+    font-size: 2vw;
+    font-weight: bold;
+    color: #BDBDBD;
+    flex: 1;
+    text-align: right;
+}
+.nickname_container{
+    width: 88.8vw;
+    margin-top: 7vw;
+}
+.nickname_title{
+    display: flex;
+    justify-content :flex-start;
+    align-items: center;
+}
+.nickname_input{
+    width: 88.8vw;
+    height: 13vw;
+    border:none;
+    background-color: #FFF;
+    font-size: 4vw;
+
+}
+.password_find_text{
+    font-size: 4vw;
+    font-weight: bold;
+    color: #BDBDBD;
+    flex: 1;
+    text-align: right;
+}
+.profile_bottom_container{
+    margin-top: 7vw;
+    margin-bottom: 14vw;
+}
+.profile_bottom_title{
+    width: 88.8vw;
+    cursor: pointer;
+}
+.profile_bottom_text{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 17px;
+}
+.profile_bottom_text_left{
+    font-size: 4vw;
+    font-weight: bold;
+    color: #00183C;
+}
+.profile_bottom_text_right{
+    font-size: 4vw;
+    font-weight: bold;
+    color: #0066FF;
+    text-decoration: underline;
+}

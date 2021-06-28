@@ -1,0 +1,14 @@
+.title_container{
+    width: 81.8vw;
+    display: flex;
+    justify-content: center;
+    margin: 12vw 0;
+}
+
+.item_container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

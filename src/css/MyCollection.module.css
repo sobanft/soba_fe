@@ -1,0 +1,39 @@
+.mycollection_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 310px 80px 310px;
+    min-width: 1300px;
+}
+
+
+.collection_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.collection_noshow_container{
+    text-align: center;
+    padding: 50px 0;
+}
+.collection_noshow{
+    font-size: 24px;
+    font-weight: bold;
+    color: #00183C;
+    width: 100%;
+}
+.back_text{
+    text-align: center;
+    color: #00183C;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.mycollection_bottom_container{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.mycollection_bottom_title{
+    cursor: pointer;
+}

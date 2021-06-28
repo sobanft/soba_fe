@@ -1,0 +1,100 @@
+.singup_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 310px 80px 310px;
+    min-width: 1300px;
+}
+.dot_img{
+    margin-right: 7px;
+}
+.input_container{
+    margin-top: 10px;
+}
+.email_container{
+    width: 640px;
+    margin-top: 80px;
+}
+.email_title{
+    display: flex;
+    align-items: center;
+}
+.email_input{
+    width: 640px;
+    height: 60px;
+    border:none;
+    background-color: #F6F6F6;
+}
+
+.password_container{
+    width: 640px;
+    margin-top: 40px;
+}
+.password_title{
+    display: flex;
+    justify-content :flex-start;
+    align-items: center;
+}
+.password_input{
+    width: 640px;
+    height: 60px;
+    border:none;
+    background-color: #F6F6F6;
+
+}
+.nickname_find_text{
+    font-size: 15px;
+    font-weight: bold;
+    color: #BDBDBD;
+    flex: 1;
+    text-align: right;
+}
+.nickname_container{
+    width: 640px;
+    margin-top: 40px;
+}
+.nickname_title{
+    display: flex;
+    justify-content :flex-start;
+    align-items: center;
+}
+.nickname_input{
+    width: 640px;
+    height: 60px;
+    border:none;
+    background-color: #F6F6F6;
+
+}
+.password_find_text{
+    font-size: 15px;
+    font-weight: bold;
+    color: #BDBDBD;
+    flex: 1;
+    text-align: right;
+}
+.singup_bottom_container{
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+.singup_bottom_title{
+    cursor: pointer;
+}
+.singup_bottom_text{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 17px;
+}
+.singup_bottom_text_left{
+    font-size: 18px;
+    font-weight: bold;
+    color: #00183C;
+}
+.singup_bottom_text_right{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0066FF;
+    text-decoration: underline;
+    margin-left: 10px;
+    
+}

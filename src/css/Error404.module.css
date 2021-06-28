@@ -1,0 +1,12 @@
+.error_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 310px 80px 310px;
+    min-width: 1300px;
+}
+
+.error_image{
+    padding-bottom: 200px;
+}

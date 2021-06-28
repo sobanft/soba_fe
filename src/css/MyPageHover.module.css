@@ -1,0 +1,15 @@
+.item_contaner{
+    position: absolute;
+    top: 80px;
+    left: -85px;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    align-items: center;
+}
+.hover_menu{
+    margin: 10px 0;
+}
